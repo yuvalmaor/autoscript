@@ -4,7 +4,7 @@ try:
     os.system("git init")
 except:
     print("all ready exist")
-os.system("git remote add hww https://github.com/yuvalmaor/autoscript")#link to repo
+os.system("git remote add hww https://github.com/yuvalmaor/autoscript")#link to repo#new 
 os.system("git pull hww")
 os.system("git add --all")
 os.system('git commit -m "new commit '+str(datetime.now())+'"')
